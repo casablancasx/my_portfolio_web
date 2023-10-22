@@ -1,5 +1,63 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container-header {
+    /* Layout do header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 85px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background: #170550;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+.container-header h1 {
+    height: 35px;
+    color: #FFF;
+}
+.container-header h1 span {
+    height: 35px;
+    color: #F86F03;
+}
+
+
+.container-header nav {
+    display: flex;
+    gap: 30px;
+}
+
+.container-header nav a {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container-header nav a:hover {
+    color: #F86F03;
+}
+
+.container-header #button-header {
+
+    width: 200px;
+    height: 40px;
+    /* BOTÃO STYLE */
+    border-radius: 20px;
+    background: #FFF;
+    /* TEXTO BOTÃO */
+    color: #461959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 45px;
+}
+
+
+
+
