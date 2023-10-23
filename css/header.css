@@ -1,9 +1,16 @@
+
 .container-header {
     /* Layout do header */
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    
+
+    
     height: 85px;
     padding-left: 150px;
     padding-right: 150px;
@@ -36,6 +43,7 @@ a:hover {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    transition: color 0.3s ease;
 }
 
 .container-header nav a:hover {
@@ -56,6 +64,23 @@ a:hover {
     font-weight: 600;
     line-height: normal;
     padding: 10px 45px;
+    transition: background-color 0.5s ease;
+}
+
+.container-header #button-header:hover {
+    width: 200px;
+    height: 40px;
+    /* BOTÃO STYLE */
+    border-radius: 20px;
+    background: #461959;
+    /* TEXTO BOTÃO */
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 45px;
+
 }
 
 

@@ -1,0 +1,88 @@
+
+#home {
+    height: 100vh;
+    background: #31065A;
+    background-image: url(/assets/img/undraw_software_engineer_re_tnjc.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+/* CSS DO TEXTO DO MAIN */
+.text-main {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+   
+}
+
+.text-main h3 {
+    margin: 0;
+    padding: 0;
+   
+    color: #F86F03;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.text-main h1 {
+    margin: 0;
+    padding: 0;
+   
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text-main h2 {
+    margin: 0;
+    padding: 0;
+   
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.text-main h2 span{
+    color: #F86F03;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+    margin-top: 36px;
+
+}
+
+.social-icons a {
+    border: solid 1px #FFF;
+    padding: 3px;
+    border-radius: 50%;
+
+}
+
+#download-button {
+    margin-top: 32px;
+}
+
+#download-button a{
+    border-radius: 20px;
+    background: #F86F03;
+    color: #FFF;
+    padding: 10px 44px;
+}
+
+
