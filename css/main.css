@@ -83,6 +83,14 @@ main {
     background: #F86F03;
     color: #FFF;
     padding: 10px 44px;
+    transition: color 0.5s ease;
+}
+
+#download-button a:hover{
+    border-radius: 20px;
+    background: #FFF;
+    color: #F86F03;
+    padding: 10px 44px;
 }
 
 

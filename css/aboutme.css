@@ -1,0 +1,46 @@
+#aboutme {
+    height: 100vh;
+    background: #170550;
+    background-image: url(/assets/img/undraw_programming_re_kg9v.svg);
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    background-position-x: 20%;
+}
+
+#aboutme .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section #title-about-me {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-top: 90px;
+    padding: 2px 15px;
+    border-bottom: 1px solid #FFF;
+}
+
+section #title-about-me span {
+    color: #F86F03;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* CSS DO TEXTO E IMAGEM */
+#text-about {
+    margin-top: 90px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+

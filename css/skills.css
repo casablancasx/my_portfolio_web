@@ -1,0 +1,135 @@
+#skills {
+    height: 100vh;
+    background: #31065A;
+    background-image: url(/assets/img/undraw_react_re_g3ui.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+
+#skills #title-skills{
+    margin-top: 100px;
+    border-bottom: 1px solid #FFF;
+    width: fit-content;
+}
+
+#skills #title-skills h1{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#skills #title-skills span {
+    color: #F86F03;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+#skills .row {
+    align-items: start;
+}
+
+/* CSS TEXTO DAS HABILIDADES */
+#text-bar {
+    margin-top: 128px;
+    align-items: start;
+}
+
+#text-skills {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#text-skills h4{
+    margin: 0;
+    color: #FFF;
+    font-family: Exo 2;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 61px; /* 277.273% */
+}
+
+/* CSS DAS BARRAS */
+
+#bar-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+#bar {
+    width: 835px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #43366A;
+}
+
+#html {
+    margin: 5px 5px;
+    width: 733px;
+    height: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F86F03;
+}
+
+#css {
+    margin: 5px 5px;
+    width: 678px;
+    height: 10px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #F86F03;
+}
+
+#bootstrap{
+    margin: 5px 5px;
+    width: 565px;
+    height: 10px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #F86F03;
+}
+
+#java {
+    margin: 5px 5px;
+    width: 456px;
+    height: 10px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #F86F03;
+}
+
+#springboot {
+    margin: 5px 5px;
+    width: 678px;
+    height: 10px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #F86F03;
+}
+
+#sql {
+    margin: 5px 5px;
+    width: 604px;
+    height: 10px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #F86F03;
+}
